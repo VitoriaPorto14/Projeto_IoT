@@ -5,7 +5,7 @@ Nesta parte, o código traz as ferramentas necessárias para funcionar.
 
 - _**const express = require('express')**_: Importa o módulo Express, que é o framework principal para criar servidores HTTP de forma rápida.
 - _**const cors = require('cors')**_: Importa o middleware CORS. Ele serve para permitir que aplicações em domínios diferentes (como um site no navegador) acessem esta API sem serem bloqueadas por segurança.
-- _**const app = express(): Instancia (cria) a aplicação Express. A variável app será usada para configurar as rotas e o servidor.
+- _**const app = express()**_: Instancia (cria) a aplicação Express. A variável app será usada para configurar as rotas e o servidor.
 
 ## 2. Configurações (Middlewares)
 Os middlewares são funções que processam a requisição antes de ela chegar às rotas finais.
